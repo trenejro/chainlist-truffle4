@@ -98,7 +98,7 @@ App = {
     // seller
     if (seller == App.account) {
       articleTemplate.find('.article-seller').text("You");
-      articleTemplate.find('.btn-buy').show();
+      articleTemplate.find('.btn-buy').hide();
     } else {
       articleTemplate.find('.article-seller').text(seller);
       articleTemplate.find('.btn-buy').show();
